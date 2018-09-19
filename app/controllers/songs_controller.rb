@@ -26,6 +26,9 @@ class SongsController < ApplicationController
     @song = Song.find(params[:id])
   end
 
+  def upload
+  end
+
   def update
     @song = Song.find(params[:id])
 
